@@ -1,0 +1,36 @@
+@import "/bootstrap/less/bootstrap.less";
+
+#rooms {
+    margin: 0;
+    padding: 0;
+}
+
+#chat {
+    margin: 0;
+}
+
+#chat-windows {
+    border-color: @tableBorder;
+    border-width: 1px;
+    border-style: solid;
+    border-top-style: none;
+    border-top-width: 0;
+    min-height: 500px;
+    overflow: scroll;
+    max-height: 500px;
+
+    > div {
+        .username {
+            display: block;
+        }
+
+        .row {
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+
+        .message {
+            margin-bottom: 0;
+        }
+    }
+}
