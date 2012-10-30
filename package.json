@@ -9,6 +9,6 @@
         "handlebars": "1.0.7",
         "socket.io": "0.9.10",
         "underscore": "1.4.2",
-        "node": "0.8.12"
+        "node.js": "0.8.12"
     }
 }
