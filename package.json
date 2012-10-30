@@ -8,6 +8,7 @@
         "consolidate": "0.4.0",
         "handlebars": "1.0.7",
         "socket.io": "0.9.10",
-        "underscore": "1.4.2"
+        "underscore": "1.4.2",
+        "node": "0.8.12"
     }
 }
